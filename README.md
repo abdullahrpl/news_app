@@ -1,16 +1,98 @@
-# news_app
+📰 NEWS APP
+======================================
 
-A new Flutter project.
+🔗 Repository:
+https://github.com/abdullahrpl/news_app
 
-## Getting Started
+<br></br>
+📖 DESKRIPSI
+--------------------------------------
+News App adalah aplikasi mobile berbasis Flutter 🚀 yang digunakan
+untuk menampilkan berita terbaru dari berbagai sumber melalui
+API berita (contoh: NewsAPI).
 
-This project is a starting point for a Flutter application.
+Aplikasi ini dibuat untuk memudahkan pengguna 📱 membaca berita
+secara cepat dengan tampilan yang sederhana, modern, dan nyaman
+digunakan.
 
-A few resources to get you started if this is your first Flutter project:
+<br></br>
+✨ FITUR UTAMA
+--------------------------------------
+✅ Menampilkan daftar berita terbaru  
+🔍 Pencarian berita berdasarkan kata kunci  
+📚 Kategori berita (Business, Sports, Technology, dll)  
+📰 Halaman detail berita  
+📱 Tampilan responsif untuk Android & iOS  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<br></br>
+🚀 CARA MENJALANKAN PROJECT
+--------------------------------------
+1️⃣ Clone repository
+  ``` bash
+  git clone https://github.com/abdullahrpl/news_app.git
+  ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2️⃣ Masuk ke folder project
+  ``` bash
+  cd news_app
+  ```
+
+3️⃣ Install dependencies
+  ``` bash
+  flutter pub get
+  ```
+
+4️⃣ API Key 🔑
+   Untuk API, kamu tidak perlu mengubah maupun mengganti API key, dikarenakan API yang digunakan sudah competible dan gratis 👌
+
+5️⃣ Jalankan aplikasi ▶️
+  ``` bash
+  flutter run
+  ```
+
+<br></br>
+📁 STRUKTUR FOLDER
+--------------------------------------
+```bash
+android/        -> Build Android 🤖
+ios/            -> Build iOS 🍎
+lib/            -> Source code Flutter 💙
+  screens/      -> Halaman UI 🎨
+  models/       -> Model data 📦
+  services/     -> API & logic ⚙️
+  widgets/      -> Komponen reusable 🧩
+assets/         -> Gambar & resource 🖼️
+test/           -> Testing 🧪
+pubspec.yaml    -> Dependency Flutter 📄
+```
+
+<br></br>
+🛠️ TEKNOLOGI YANG DIGUNAKAN
+--------------------------------------
+💙 Flutter
+🎯 Dart
+🌐 HTTP API
+📰 News API
+
+<br></br>
+🤝 KONTRIBUSI
+--------------------------------------
+✨ Fork repository
+✨ Buat branch baru
+✨ Commit perubahan
+✨ Push ke repository kamu
+✨ Buat Pull Request 🚀
+
+<br></br>
+👤 AUTHOR
+--------------------------------------
+GitHub : abdullahrpl
+
+<br></br>
+📜 LICENSE
+--------------------------------------
+📌 Project ini menggunakan lisensi yang tersedia di repository.
+
+<br></br>
+⭐ Jangan lupa kasih star kalau project ini bermanfaat!
+======================================
