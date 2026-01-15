@@ -1,98 +1,108 @@
-📰 NEWS APP
-======================================
+<br></br>
 
-🔗 Repository:
-https://github.com/abdullahrpl/news_app
+# 📰 News App
+
+News App adalah aplikasi mobile berbasis **Flutter** yang digunakan untuk menampilkan berita terbaru dari berbagai sumber melalui API berita (seperti NewsAPI). Aplikasi ini dirancang dengan antarmuka sederhana, modern, dan responsif untuk memudahkan pengguna membaca berita kapan saja dan di mana saja.
 
 <br></br>
-📖 DESKRIPSI
---------------------------------------
-News App adalah aplikasi mobile berbasis Flutter 🚀 yang digunakan
-untuk menampilkan berita terbaru dari berbagai sumber melalui
-API berita (contoh: NewsAPI).
 
-Aplikasi ini dibuat untuk memudahkan pengguna 📱 membaca berita
-secara cepat dengan tampilan yang sederhana, modern, dan nyaman
-digunakan.
+## ✨ Fitur
 
-<br></br>
-✨ FITUR UTAMA
---------------------------------------
-✅ Menampilkan daftar berita terbaru  
-🔍 Pencarian berita berdasarkan kata kunci  
-📚 Kategori berita (Business, Sports, Technology, dll)  
-📰 Halaman detail berita  
-📱 Tampilan responsif untuk Android & iOS  
+### 1. **Berita Terbaru**
+- Menampilkan headline berita terbaru dari berbagai sumber.
+- Update berita secara real-time melalui API.
 
-<br></br>
-🚀 CARA MENJALANKAN PROJECT
---------------------------------------
-1️⃣ Clone repository
-  ``` bash
-  git clone https://github.com/abdullahrpl/news_app.git
-  ```
+### 2. **Pencarian Berita**
+- Pencarian berita berdasarkan kata kunci.
+- Memudahkan pengguna menemukan topik yang diinginkan.
 
-2️⃣ Masuk ke folder project
-  ``` bash
-  cd news_app
-  ```
+### 3. **Kategori Berita**
+- Kategori seperti Business, Sports, Technology, Entertainment, dll.
+- Navigasi kategori yang sederhana dan cepat.
 
-3️⃣ Install dependencies
-  ``` bash
-  flutter pub get
-  ```
+### 4. **Detail Berita**
+- Halaman detail untuk membaca berita lengkap.
+- Menampilkan judul, gambar, deskripsi, dan sumber berita.
 
-4️⃣ API Key 🔑
-   Untuk API, kamu tidak perlu mengubah maupun mengganti API key, dikarenakan API yang digunakan sudah competible dan gratis 👌
-
-5️⃣ Jalankan aplikasi ▶️
-  ``` bash
-  flutter run
-  ```
+### 5. **UI Responsif**
+- Tampilan modern dan ringan.
+- Optimal untuk Android dan iOS.
 
 <br></br>
-📁 STRUKTUR FOLDER
---------------------------------------
+
+## 🔧 Teknologi yang Digunakan
+- **Framework**: Flutter
+- **Bahasa**: Dart
+- **API**: News API
+- **HTTP Client**: http package
+- **Platform**: Android & iOS
+
+<br></br>
+
+## 🚀 Cara Menjalankan Proyek
+
+1. **Clone Repository**
 ```bash
-android/        -> Build Android 🤖
-ios/            -> Build iOS 🍎
-lib/            -> Source code Flutter 💙
-  screens/      -> Halaman UI 🎨
-  models/       -> Model data 📦
-  services/     -> API & logic ⚙️
-  widgets/      -> Komponen reusable 🧩
-assets/         -> Gambar & resource 🖼️
-test/           -> Testing 🧪
-pubspec.yaml    -> Dependency Flutter 📄
+git clone https://github.com/abdullahrpl/news_app.git
+```
+
+2. **Masuk ke direktori proyek dan install dependency**
+```bash
+cd news_app
+flutter pub get
+```
+
+3. **API Key: Untuk API tidak perlu diubah, sudah compatible**
+
+4. **Jalankan Aplikasi**
+```bash
+flutter run
 ```
 
 <br></br>
-🛠️ TEKNOLOGI YANG DIGUNAKAN
---------------------------------------
-💙 Flutter
-🎯 Dart
-🌐 HTTP API
-📰 News API
+
+## 📁 Struktur Folder
+```bash
+lib/
+├── screens/        -> Halaman UI
+├── models/         -> Model data
+├── services/       -> API & logic aplikasi
+├── widgets/        -> Widget reusable
+assets/             -> Gambar & resource
+test/               -> Testing
+pubspec.yaml        -> Dependency Flutter
+```
 
 <br></br>
-🤝 KONTRIBUSI
---------------------------------------
-✨ Fork repository
-✨ Buat branch baru
-✨ Commit perubahan
-✨ Push ke repository kamu
-✨ Buat Pull Request 🚀
+
+## 👤 Developer
+**GitHub**: abdullahrpl
 
 <br></br>
-👤 AUTHOR
---------------------------------------
-GitHub : abdullahrpl
+
+## 🤝 Kontribusi
+Jika Anda ingin berkontribusi:
+
+1. **Fork repository ini**
+2. **Buat branch fitur baru:**
+   ```bash
+   git checkout -b fitur-anda
+   ```
+3. **Commit perubahan Anda:**
+   ```bash
+   git commit -m "Menambahkan fitur baru"
+   ```
+4. **Push ke repository anda:**
+   ```bash
+   git push origin fitur-anda
+   ```
+
+5. **Buat pull request**
 
 <br></br>
-📜 LICENSE
---------------------------------------
-📌 Project ini menggunakan lisensi yang tersedia di repository.
+## 📄 Lisensi
+
+Proyek ini berlisensi [MIT License](https://opensource.org/licenses/MIT)
 
 <br></br>
-⭐ Jangan lupa kasih star kalau project ini bermanfaat!
-======================================
+## ⭐ Jika project ini bermanfaat, jangan lupa beri star di GitHub!
